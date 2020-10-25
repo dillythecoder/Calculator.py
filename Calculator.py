@@ -1,24 +1,25 @@
 import time
+#Optional loop its just easier so you dont have to keep running the calcautor over and over again
 for i in range(0,4):
 
-    def add(x,y,b):
-        return x + y + b 
+    def add(x,y,):
+        return x + y   
 
 
-    def subtract(x,y,b):
-        return x - y - b
+    def subtract(x,y,):
+        return x - y  
 
 
-    def multiply(x,y,b):
-        return x * y * b
+    def multiply(x,y,):
+        return x * y 
 
 
-    def divide (x,y,b):
-        return x/y/b
+    def divide (x,y,):
+        return x/y/
 
 
-    def power(x,y,b):
-        return pow(x,y,b)
+    def power(x,y,):
+        return pow(x,y,)
 
     #take input from user
     print("Select operation.")
@@ -30,24 +31,24 @@ for i in range(0,4):
     choice=input("Enter choice 1/2/3/4/5:")
     num1 = int(input("Enter the first number: "))
     num2 = int(input("Enter the second number: "))
-    num3 = int(input("Enter a third number: "))
+   
 
 
 
     if choice == '1':
-        print(num1, "+", num2, "+", num3, "=", add(num1,num2,num3))
+        print(num1, "+", num2, "=", add(num1,num2,))
 
     elif choice == '2':
-        print(num1, "-", num2, "-", num3, "=", subtract(num1,num2,num3))
+        print(num1, "-", num2, "=", subtract(num1,num2,))
 
     elif choice == '3':
-        print(num1, "x", num2,"+", num3, "=", multiply(num1,num2, num3))
+        print(num1, "x", num2,"=", multiply(num1,num2,))
 
     elif choice == '4':
 
-        print(num1, "/", num2, "/", num3, "=",  divide(num1,num2,num3))
+        print(num1, "/", num2, "=",  divide(num1,num2,))
     elif choice == '5':
-        print(num1, "^", num2, "^", num3, "=", power(num1,num2,num3))
+        print(num1, "^", num2, "=", power(num1,num2,))
 
 
 
