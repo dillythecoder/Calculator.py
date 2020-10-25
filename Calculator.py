@@ -1,5 +1,6 @@
 import time
 #Optional loop its just easier so you dont have to keep running the calcautor over and over again
+#I coded this on python idle
 for i in range(0,4):
 
     def add(x,y,):
